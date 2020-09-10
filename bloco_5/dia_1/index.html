@@ -30,7 +30,7 @@
     </style>
   </head>
   <body>
-    <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    <h1 class="title" id="titleCorrect">Exercício 5.1 - JavaEscripito </h1>
     <div class="main-content">
       <div class="center-content">
         <p>Texto padrão do nosso site</p>
@@ -43,6 +43,8 @@
 
       document.getElementsByTagName('div')[0].style.backgroundColor = 'rgb(76,164,109)';
       document.getElementsByTagName('div')[1].style.backgroundColor = 'white';
+
+      document.getElementsByTagName('h1')[0].innerText = "Exercício 5.1 - JavaScript";
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
