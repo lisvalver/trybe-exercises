@@ -35,3 +35,9 @@ console.log(listKeys(lesson3)); // Investigar pq está imprimindo "undefined" ap
 
 const objectLenght = (object) => console.log(Object.keys(object).length);
 console.log(objectLenght(lesson2)); // Investigar pq está imprimindo "undefined" após o resultado
+
+// exercise 4
+
+const listValues = (object) => console.log(Object.values(object));
+console.log(listValues(lesson3)); // Investigar pq está imprimindo "undefined" após o resultado
+
