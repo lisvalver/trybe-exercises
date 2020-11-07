@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Teste se a função sum lança um erro quando os parametros são 4 e "5"(string 5) 1`] = `"parameters must be numbers"`;
+
+exports[`Teste se a função sum lança um erro quando os parametros são 4 e "5"(string 5): parameters must be numbers 1`] = `"parameters must be numbers"`;
+
+exports[`Teste se a mensagem de erro é "parameters must be numbers" quando realizar a chamada sum(4, "5"): parameters must be numbers 1`] = `"parameters must be numbers"`;
